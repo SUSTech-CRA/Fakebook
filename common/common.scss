@@ -277,7 +277,7 @@ body {
 }
 
 .btn {
-  border-radius: 4px;
+  border-radius: 20px;
   color: #333;
   border: 1px solid $border-color;
   &.widget-button {
@@ -467,7 +467,7 @@ body {
 .dbook-sidebar {
   display: none;
   @include fb-background();
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid $border-color;
   padding: 1em;
   margin-bottom: 0.5em;
@@ -553,7 +553,7 @@ body {
 }
 
 .topic-map {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 // Suggested
@@ -622,24 +622,24 @@ body {
 }
 
 .badge-card {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 // User
 
 .user-content {
   padding: 1em;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .user-main .about {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .user-main .about .details {
   padding: 1em;
   border: 1px solid var(--primary-low, $primary-low);
-  border-radius: 4px;
+  border-radius: 10px;
   background: var(--secondary, $secondary);
 }
 .user-main .about.collapsed-info .details {
@@ -650,7 +650,7 @@ body {
 .user-main .about .secondary {
   padding: 0.5em;
   border: 1px solid var(--primary-low, $primary-low);
-  border-radius: 4px;
+  border-radius: 10px;
   margin-top: 0.25em;
 }
 
@@ -665,7 +665,7 @@ body {
 
 .user-stream .item,
 .user-stream .user-stream-item {
-  border-radius: 4px;
+  border-radius: 10px;
   margin-bottom: 0.25em;
 }
 
@@ -689,7 +689,7 @@ body {
   background: var(--secondary, $secondary);
   padding: 1em;
   display: block;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   border: 1px solid $border-color;
   thead {
@@ -761,7 +761,7 @@ body {
 
 .categories-and-latest,
 .categories-and-top {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .categories-and-latest div.column.categories,
@@ -773,7 +773,7 @@ body {
 .latest-topic-list {
   background: var(--secondary, $secondary);
   padding: 1em;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid $border-color;
 }
 
@@ -793,12 +793,12 @@ body {
   background: var(--secondary, $secondary);
   margin-top: 0;
   padding: 1.5em 1em 0.5em;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   border: 1px solid $border-color;
   .category-box {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
   }
   .category-box-inner {
     border-radius: 0 4px 4px 0;
@@ -822,11 +822,11 @@ body {
 // Composer
 
 .grippie {
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 4px 0 0;
 }
 
 #reply-control {
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 4px 0 0;
 }
 
 .d-editor-button-bar {
@@ -842,7 +842,7 @@ body {
 
 .search-container .search-advanced-sidebar .search-advanced-title {
   background: var(--secondary, $secondary);
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 4px 0 0;
   border: 1px solid $border-color;
 }
 
@@ -859,7 +859,7 @@ body {
 .fps-result {
   background: var(--secondary, $secondary);
   padding: 1em 1em 1em 0.7em;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid $border-color;
   margin-bottom: 1em;
 }
@@ -882,7 +882,7 @@ body {
 .tag-list {
   background: var(--secondary, $secondary);
   padding: 1em;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid $border-color;
   margin-bottom: 1em;
 }
@@ -895,7 +895,7 @@ body {
 .groups-table {
   margin-top: 1em;
   background: var(--secondary, $secondary);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .directory .me .username a,
@@ -909,7 +909,7 @@ body {
 #banner,
 .alert.alert-info {
   background: var(--tertiary-medium, $tertiary-medium);
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid var(--tertiary-high, $tertiary-high);
   color: var(--secondary, $secondary);
   .close {
@@ -938,7 +938,7 @@ body {
 .boxed.white {
   padding: 1em;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid $border-color;
 }
 
@@ -983,7 +983,7 @@ body:not(.categories-list) .topic-list {
   .main-link {
     @include fb-background();
     border: 1px solid $border-color;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-bottom: 12px;
 
     .byline {
@@ -1145,7 +1145,7 @@ body:not(.categories-list) .topic-list {
 section.tag-info {
   padding-top: 1.5em;
   border-color: $border-color;
-  border-radius: 4px;
+  border-radius: 10px;
   background: var(--secondary, $secondary);
 }
 
